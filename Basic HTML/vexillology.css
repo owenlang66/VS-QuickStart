@@ -1,0 +1,54 @@
+.container{
+    position: relative;
+    height:600px;
+    width:1000px;
+    background-color: white;
+}
+
+.top{
+    width: 0;
+    height: 0;
+    border: 450px solid transparent;
+    border-top: 250px solid red;
+    border-bottom: 0px solid;
+    margin-left: 50px;
+}
+
+
+.left{
+    position: absolute; top:0; left:0;
+    width: 0;
+    height: 0;
+    border: 250px solid transparent;
+    border-left: 450px solid green;
+    border-right: 0px solid;
+}
+
+
+.bottom{
+    width: 0px;
+    height: 0px;
+    border: 450px solid transparent;
+    border-top: 0px;
+    border-bottom: 250px solid red;
+    margin-left: 50px;
+}
+
+
+.right{
+    position: absolute; top:0; right:0;
+    width: 0;
+    height: 0;
+    border: 250px solid transparent;
+    border-left: 0px solid ;
+    border-right: 450px solid green;
+}
+
+
+.circle{
+    position: absolute; top:125px; right:380px;
+    height:250px;
+    width: 250px;
+    border-radius: 125px;
+    background-color: white;
+}

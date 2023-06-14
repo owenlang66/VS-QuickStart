@@ -1,0 +1,26 @@
+#search{
+    color: green;
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 25px;
+    width: 125px;
+    height: 25px;
+}
+
+#plus{
+    color: white;
+    background-color: aquamarine;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: white;
+    font-size: 20px;
+}
+
+#create{
+    height: 30px;
+    width: 150px;
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 5px 5px black;
+}

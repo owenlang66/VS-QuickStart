@@ -6,52 +6,53 @@ var rider_age = 9
 
 var rider_height = 44
 
-if (rider_height>=min_height){
+if (rider_height >= min_height) {
     console.log("Get on that ride, kiddo!");
 }
-        else if(rider_age>=min_age){
-            console.log("Get on that ride, kiddo!");
-        }
-        else {
-            console.log("Sorry kiddo, maybe next year.");
-        }
-        
+else if (rider_age >= min_age) {
+    console.log("Get on that ride, kiddo!");
+}
+else {
+    console.log("Sorry kiddo, maybe next year.");
+}
 
 
 
-if (rider_height>=min_height && rider_age>=min_age){
+
+if (rider_height >= min_height && rider_age >= min_age) {
     console.log("Get on that ride, kiddo!")
 
 }
-    else {
+else {
     console.log("Sorry kiddo, maybe next year")
-    }
+}
 
 
-    for(var num = 7; num <100; num = num+7) {
-        console.log(num);
-    }
+for (var num = 7; num < 100; num = num + 7) {
+    console.log(num);
+}
 
 
 // break example
-    for(var x = 1; x<=10; x=x+1){
+for (var x = 1; x <= 10; x = x + 1) {
 
-        if (x==4){
-            console.log("It's four!")
-            break;}
-            console.log(x)
+    if (x == 4) {
+        console.log("It's four!")
+        break;
     }
+    console.log(x)
+}
 
 
 var animals = ["bear", "koala", "dog"];
 
-for (var x = 0; x<animals.length; x++){
+for (var x = 0; x < animals.length; x++) {
 
-    if (animals[x] == "snake"){
-    console.log("Hey we found the snake!");
-    
-}       else {
-    console.log("no snake in sight");
+    if (animals[x] == "snake") {
+        console.log("Hey we found the snake!");
+
+    } else {
+        console.log("no snake in sight");
     }
 }
 
@@ -66,11 +67,11 @@ console.log('result is', result);
 
 
 // function example
-function countToFive (){
+function countToFive() {
 
-    for(var x = 1; x<=5; x=x+1){
+    for (var x = 1; x <= 5; x = x + 1) {
         console.log(x)
-}
+    }
 }
 // calling the function
 countToFive()
@@ -81,7 +82,7 @@ function sumNums(num1, num2) {
     console.log('sum is', sum);
     return sum;
 }
-var result = sumNums(2,3) + sumNums(3,sumNums(2,1)) + sumNums(sumNums(2,1),sumNums(2,3));
+var result = sumNums(2, 3) + sumNums(3, sumNums(2, 1)) + sumNums(sumNums(2, 1), sumNums(2, 3));
 console.log('result is', result);
 
 
@@ -103,8 +104,7 @@ greetSomeone("Jerry");
 
 function greet(person) {
 
-    if (person != "Count Dooku")
-    {
+    if (person != "Count Dooku") {
         console.log("Hello, " + person);
     }
     else {
@@ -121,12 +121,12 @@ console.log(message.length)
 
 
 // parameters practice
-function greet(person, timeOfDay){
-    if (person == "Count Dooku"){
+function greet(person, timeOfDay) {
+    if (person == "Count Dooku") {
         return "I'm coming for you, Dooku!"
 
     }
-        console.log(person, timeOfDay);
+    console.log(person, timeOfDay);
     return "Good " + timeOfDay + " " + person;
 }
 
@@ -135,12 +135,12 @@ console.log(greetingString)
 
 
 // write a function that will push in an array all even numbers starting from 1-10
-function evenPush(){
+function evenPush() {
     var evenArray = [];
-    for (var x=1;x<=10;x++){
-    if (x%2==0){
-        evenArray.push(x)
-    }
+    for (var x = 1; x <= 10; x++) {
+        if (x % 2 == 0) {
+            evenArray.push(x)
+        }
     }
     return evenArray
 }
@@ -153,7 +153,7 @@ console.log(final)
 
 
 
-for(var i=22; i>5; i--) {
+for (var i = 22; i > 5; i--) {
     console.log(i);
     i -= 4;
 }
@@ -163,7 +163,7 @@ for(var i=22; i>5; i--) {
 
 
 var i = 11;
-if(i % 2 == 0) {
+if (i % 2 == 0) {
     console.log("even");
 } else {
     console.log(i);
@@ -182,25 +182,63 @@ function findAverage(arr) {
     return currentSum / arr.length;
 
 }
-console.log(findAverage([3,6,5,9,2]))
+console.log(findAverage([3, 6, 5, 9, 2]))
 
 
-function findAverage(arr){
+function findAverage(arr) {
     var currentSum = 0;
-    for (var i = 0; i <arr.length; i++){
+    for (var i = 0; i < arr.length; i++) {
         currentSum += arr[i];
     }
-    return currentSum/arr.length
+    return currentSum / arr.length
 }
-var arr1 = [3,6,5,9,2];
+var arr1 = [3, 6, 5, 9, 2];
 console.log(findAverage(arr1));
 
 if (weather != "rainy") {
     if (distanceToStadium < 3) {
-      console.log("I think I’ll walk to the game.");
+        console.log("I think I’ll walk to the game.");
     } else {
-      console.log("It’s a bit far, so maybe I’ll fly.");
+        console.log("It’s a bit far, so maybe I’ll fly.");
     }
-  } else {
+} else {
     console.log("Hey, I’m a duck! A little water is OK. I’ll swim.");
-  }
+}
+
+
+var a =25;
+a=a-13;
+console.log(a/2);
+
+a="hello";
+console.log(a+"hello")
+
+
+for(var i=0;i<10;i++){
+console.log(i);
+i=i+3
+}
+
+console.log("outside of the loop "+i);
+
+
+var countPositives =0
+var numbers =[3,4,-1,7,16,-8,0];
+
+for (var x=0;x<numbers.length;x++){
+    if (numbers[x]>0){
+        countPositives=+1
+    }
+    
+}
+
+console.log("there are " + countPositives +" positive values");
+
+// while loop
+var x=1
+while(x<=10){
+    console.log(x)
+
+    // work towards a break
+    x++;
+}

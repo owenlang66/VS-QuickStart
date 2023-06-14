@@ -1,0 +1,39 @@
+h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}
+p {
+    color:crimson;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+/*targeting an element*/
+body{
+    background-color: brown;
+}
+
+/* targeting a class*/
+.black{
+    color:blue;
+    background-color: greenyellow;
+}
+
+/*targeting an id*/
+#main-section{
+    color:bisque;
+    background-color: deeppink;
+}
+
+img{
+    width:60%;
+}
+
+.something{
+    width: 300px;
+}
+
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
