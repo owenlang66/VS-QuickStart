@@ -1,0 +1,17 @@
+*{
+    background-color: aquamarine;
+}
+
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    padding: 10px;
+    display: flex;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+
+}
