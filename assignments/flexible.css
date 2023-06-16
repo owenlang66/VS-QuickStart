@@ -1,0 +1,38 @@
+/* *{
+
+} */
+
+.row{
+    display: flex;
+}
+
+
+.col{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: green;
+}
+
+
+.row2{
+    display:flex;
+}
+
+.col-2{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.row3{
+    display: flex;
+}
+
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: aquamarine;
+}
