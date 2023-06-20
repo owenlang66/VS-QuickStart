@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    color: black;
+}
+
+.light-mode{
+    background: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
